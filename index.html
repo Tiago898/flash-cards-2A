@@ -1,31 +1,38 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flashcards</title>
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Fato ou Fake</title>
+
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-<header>
-<h1>Fato ou Fake</h1>
-<img src="data:image/jpeg;base64,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" alt="imagem-lupa">
-</header>
 
-<main>
-<h2>As noticías sobre o </h2>
+    <header>
+        <h1>Fato ou Fake</h1>
 
+        <img src="imagem.jpg"
+             alt="Imagem de uma lupa">
+    </header>
 
+    <main>
+        <h2>As notícias sobre o quê?</h2>
 
+        <p>
+            Confira se a notícia é verdadeira ou falsa.
+        </p>
+    </main>
 
+    <footer>
+        <p>Fato ou Fake</p>
+    </footer>
 
-
-</main>
-    
-
-<footer>
-
-
-</footer>
 </body>
+
 </html>
