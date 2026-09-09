@@ -1,0 +1,125 @@
+/* =========================
+   CSS - FATO OU FAKE
+   ========================= */
+
+/* SELETOR */
+body {
+    /* Cor do fundo */
+    background-color: #f2f2f2;
+
+    /* Cor do texto */
+    color: #333333;
+
+    /* Tipo da fonte */
+    font-family: Arial, sans-serif;
+
+    /* Espaço externo */
+    margin: 0;
+
+    /* Espaço interno */
+    padding: 20px;
+}
+
+
+/* TÍTULO */
+h1 {
+    /* Cor do texto */
+    color: white;
+
+    /* Tamanho da fonte */
+    font-size: 32px;
+
+    /* Alinhamento do texto */
+    text-align: center;
+
+    /* Espaço externo */
+    margin: 20px;
+
+    /* Espaço interno */
+    padding: 10px;
+
+    /* Cor de fundo */
+    background-color: blue;
+
+    /* Cantos arredondados */
+    border-radius: 10px;
+
+    /* Borda */
+    border: 2px solid black;
+}
+
+
+/* SUBTÍTULO */
+h2 {
+    color: #2563eb;
+    font-size: 24px;
+    text-align: center;
+}
+
+
+/* IMAGEM */
+img {
+    width: 200px;
+    height: auto;
+
+    /* Arredonda os cantos */
+    border-radius: 10px;
+
+    /* Borda */
+    border: 2px solid black;
+}
+
+
+/* EXEMPLO DE FLEXBOX */
+header {
+    /* Ativa o Flexbox */
+    display: flex;
+
+    /* Organiza os elementos em coluna */
+    flex-direction: column;
+
+    /* Centraliza no eixo principal */
+    justify-content: center;
+
+    /* Centraliza no eixo transversal */
+    align-items: center;
+
+    /* Espaço entre os elementos */
+    gap: 20px;
+
+    background-color: #2563eb;
+    padding: 20px;
+}
+
+
+/* EXEMPLO DE CAIXA */
+main {
+    background-color: white;
+
+    /* Largura */
+    width: 80%;
+
+    /* Largura máxima */
+    max-width: 800px;
+
+    /* Espaço externo */
+    margin: 30px auto;
+
+    /* Espaço interno */
+    padding: 30px;
+
+    /* Cantos arredondados */
+    border-radius: 10px;
+}
+
+
+/* RODAPÉ */
+footer {
+    background-color: #222222;
+    color: white;
+
+    text-align: center;
+
+    padding: 20px;
+    margin-top: 30px;
+}
